@@ -294,6 +294,20 @@ new transfer_elements__WEBPACK_IMPORTED_MODULE_0__["default"]({
     }
   }
 });
+const targetElement = document.querySelector('.header');
+
+// Функция для добавления класса при прокрутке
+function handleScroll() {
+  if (window.scrollY > 100) {
+    // Измените 100 на нужное вам значение
+    targetElement.classList.add('header--color');
+  } else {
+    targetElement.classList.remove('header--color');
+  }
+}
+
+// Добавляем обработчик события прокрутки
+window.addEventListener('scroll', handleScroll);
 
 /***/ }),
 
