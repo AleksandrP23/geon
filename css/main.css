@@ -392,6 +392,13 @@ a {
   font-size: 20px;
   letter-spacing: -0.02em;
   color: var(--belyy);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+@media (any-hover: hover) {
+  .header__contacts-tel:hover {
+    opacity: 0.8;
+  }
 }
 @media (max-width: 1366px) {
   .header__contacts-tel {
@@ -410,6 +417,13 @@ a {
   font-size: 20px;
   letter-spacing: -0.02em;
   color: var(--belyy);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+@media (any-hover: hover) {
+  .header__contacts-mail:hover {
+    opacity: 0.8;
+  }
 }
 @media (max-width: 1366px) {
   .header__contacts-mail {
@@ -624,7 +638,14 @@ a {
   text-align: center;
   color: var(--belyy);
   background-color: var(--siniy);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   gap: 15px;
+}
+@media (any-hover: hover) {
+  .hero__btn:hover {
+    opacity: 0.8;
+  }
 }
 @media (max-width: 1024px) {
   .hero__btn {
@@ -1414,7 +1435,12 @@ a {
   }
 }
 .info__link {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 30px 35px;
   width: 100%;
   font-weight: 400;
@@ -1423,12 +1449,32 @@ a {
   letter-spacing: -0.02em;
   color: var(--belyy);
   background: var(--siniy);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  gap: 15px;
+}
+@media (any-hover: hover) {
+  .info__link:hover {
+    opacity: 0.8;
+  }
 }
 @media (max-width: 1024px) {
   .info__link {
     font-size: 13px;
     text-align: center;
   }
+}
+.info__link::after {
+  content: "";
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 61px;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/arr-btn.svg");
+  background-position: center;
+  background-size: 7px 11px;
+  background-repeat: no-repeat;
 }
 .info__img {
   display: -webkit-box;
@@ -2227,6 +2273,14 @@ a {
   line-height: 120%;
   letter-spacing: -0.02em;
   color: var(--siniy);
+  -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+@media (any-hover: hover) {
+  .certificate__link:hover {
+    color: var(--belyy);
+    background: var(--siniy);
+  }
 }
 .certificate__img {
   display: -webkit-box;
@@ -2390,6 +2444,7 @@ a {
   opacity: 0.6;
 }
 .form__btn {
+  border: 1px solid transparent;
   padding: 30px 35px;
   width: 100%;
   font-weight: 600;
@@ -2397,6 +2452,15 @@ a {
   line-height: 160%;
   color: var(--siniy);
   background: var(--belyy);
+  -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+@media (any-hover: hover) {
+  .form__btn:hover {
+    border: 1px solid var(--belyy);
+    color: var(--belyy);
+    background: var(--siniy);
+  }
 }
 @media (max-width: 576px) {
   .form__btn {
@@ -2547,6 +2611,13 @@ a {
   line-height: 160%;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.65);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+@media (any-hover: hover) {
+  .footer__link:hover {
+    opacity: 0.4;
+  }
 }
 @media (max-width: 1024px) {
   .footer__link {
@@ -2568,6 +2639,13 @@ a {
   letter-spacing: -0.02em;
   text-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.25);
   color: var(--belyy);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+@media (any-hover: hover) {
+  .footer__contact-link:hover {
+    opacity: 0.8;
+  }
 }
 @media (max-width: 1366px) {
   .footer__contact-link {
@@ -2632,6 +2710,13 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
   padding: 10px;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+@media (any-hover: hover) {
+  .social__item:hover {
+    opacity: 0.8;
+  }
 }
 @media (max-width: 1366px) {
   .social__item {
@@ -2640,6 +2725,13 @@ a {
 }
 .social__link {
   display: block;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+@media (any-hover: hover) {
+  .social__link:hover {
+    opacity: 0.8;
+  }
 }
 @media (max-width: 1366px) {
   .social__link {
