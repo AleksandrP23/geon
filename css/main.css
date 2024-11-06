@@ -2401,6 +2401,7 @@ a {
 }
 .form__input {
   margin-bottom: 11px;
+  color: var(--belyy);
   background-color: transparent;
 }
 .form__input::-webkit-input-placeholder {
