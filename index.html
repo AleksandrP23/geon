@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>ГЕОН</title>
+  <link rel="preload" href="fonts/RFDewiExtendedRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RFDewiExtendedSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container">
+    <div class="header__wrapper">
+      <img src="./img/logo.svg" class="header__logo" width="169" height="44" alt="Логотип ГЕОН">
+      <div class="header__raiting raitings">
+        <div class="raitings__block">
+          <div class="raitings__block-top">
+            <span class="raitings__sum">4,7</span>
+            <div class="raitings__stars">
+              <img src="./img/4stars.png" width="116" height="20" alt="Рейтинг 4.7 из 5">
+            </div>
+          </div>
+          <div class="raitings__text">Рейтинг в Яндекс.картах</div>
+        </div>
+        <div class="raitings__block">
+          <div class="raitings__block-top">
+            <span class="raitings__sum">4,8</span>
+            <div class="raitings__stars">
+              <img src="./img/4stars.png" width="116" height="20" alt="Рейтинг 4.8 из 5">
+            </div>
+          </div>
+          <div class="raitings__text">Рейтинг в 2ГИС</div>
+        </div>
+        <div class="raitings__block">
+          <div class="raitings__block-top">
+            <span class="raitings__sum">5,0</span>
+            <div class="raitings__stars">
+              <img src="./img/5stars.png" width="116" height="20" alt="Рейтинг 5.0 из 5">
+            </div>
+          </div>
+          <div class="raitings__text">Рейтинг в Google Maps</div>
+        </div>
+      </div>
+      <div class="header__social-contacts">
+        <ul class="list-reset social__list">
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--vb">
+            <svg class="social__pic">
+              <use xlink:href="img/sprite.svg#vb"></use>
+            </svg>
+          </a></li>
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--wa">
+            <svg class="social__pic">
+              <use xlink:href="img/sprite.svg#wa"></use>
+            </svg>
+          </a></li>
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--tg">
+            <svg class="social__pic">
+              <use xlink:href="img/sprite.svg#tg"></use>
+            </svg>
+          </a></li>
+        </ul>
+        <div class="header__contacts">
+          <a href="tel:+78005002174" class="header__contacts-tel">
+            <span class="header__contacts-text">8 (800) 500-21-74</span>
+            <svg class="header__contacts-svg">
+              <use xlink:href="img/sprite.svg#tel"></use>
+            </svg>
+            </a>
+          <a href="mailto:zakaz@geongroup.ru" class="header__contacts-mail">
+            <span class="header__contacts-text">zakaz@geongroup.ru</span>
+            <svg class="header__contacts-svg">
+              <use xlink:href="img/sprite.svg#email"></use>
+            </svg>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <!-- <section class="hero">
+  <div class="container-min">
+    <div class="hero__wrapper">
+      <h1 class="visually-hidden">Группа компаний ГЕОН</h1>
+      <h2 class="hero__title">Произведём и доставим вашу КНС за 17 дней в любую точку РФ</h2>
+      <p class="hero__text">Проведём обследование, разработаем проект, изготовим оборудование и запустим в работу</p>
+      <div class="hero__btns">
+        <button class="btn-reset hero__btn">Рассчитать стоимость</button>
+        <button class="btn-reset hero__btn hero__btn--transparent">Скачать опросный лист</button>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section class="hero">
+  <div class="container">
+    <div class="container-line hero__index">
+      <div class="section-wrapper">
+        <div class="col-width col-line">
+
+        </div>
+        <div class="section-inner">
+          <h1 class="visually-hidden">Группа компаний ГЕОН</h1>
+          <h2 class="hero__title">Произведём и доставим вашу КНС за 17 дней в любую точку РФ</h2>
+          <p class="hero__text">Проведём обследование, разработаем проект, изготовим оборудование и запустим в работу
+          </p>
+          <div class="hero__btns">
+            <button class="btn-reset hero__btn">Рассчитать стоимость</button>
+            <button class="btn-reset hero__btn hero__btn--transparent">Скачать опросный лист</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="advantage">
+  <div class="container">
+    <div class="container-line">
+      <div class="advantage__wrapper">
+        <div class="col-width col-line">
+          <h2 class="section-title">Преимущества</h2>
+        </div>
+        <ul class="list-reset advantage__list">
+          <li class="advantage__item">
+            <div class="advantage__decr">
+              <span class="advantage__num">5</span>
+              <span class="advantage__text-big">лет</span>
+            </div>
+            <div class="advantage__text">гарантия с момента запуска оборудования</div>
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__decr">
+              <span class="advantage__num">30</span>
+              <span class="advantage__text-big">%</span>
+            </div>
+            <div class="advantage__text">скидка на первый договор</div>
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__decr">
+              <span class="advantage__num">2</span>
+              <span class="advantage__text-big">площадки</span>
+            </div>
+            <div class="advantage__text">для производства КНС</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="production">
+  <div class="container">
+    <div class="container-line">
+      <div class="production__wrapper">
+        <div class="col-width col-line">
+          <h2 class="section-title">Изготовление</h2>
+        </div>
+        <p class="production__text">Подстроимся под ваш <span class="text-color">бюджет</span>, объясним, на чем можно
+          <span class="text-color">сэкономить</span></p>
+      </div>
+      <div class="tabs production__tabs" data-tabs="production">
+        <ul class="list-reset col-width col-line tabs__nav">
+          <li class="tabs__nav-item">
+            <button class="btn-reset tabs__nav-btn tabs__nav-btn1" type="button">
+              <span class="tabs__nav-text-big">КНС из стеклопластика</span>
+              <span class="tabs__nav-text-small">Выдерживаем толщину стенки до 30 мм</span>
+            </button>
+          </li>
+          <li class="tabs__nav-item">
+            <button class="btn-reset tabs__nav-btn tabs__nav-btn2" type="button">
+              <span class="tabs__nav-text-big">КНС из полиэтилена</span>
+              <span class="tabs__nav-text-small">Выдерживаем толщину стенки до 90 мм</span>
+            </button>
+          </li>
+        </ul>
+        <div class="tabs__content">
+          <div class="tabs__panel">
+            <div class="tabs__col tabs__col1">
+              <ul class="list-reset tabs__list">
+                <li class="tabs__item">Используем армированный стеклопластик перекрестной намотки</li>
+                <li class="tabs__item">Пропитываем связующими смолами</li>
+                <li class="tabs__item">Усиливаем лайнерным антикоррозийным слоем </li>
+              </ul>
+              <div class="tabs__descr tabs__descr-tablet">
+                <div class="tabs__text">Срок изготовления:</div>
+                <div class="text-color tabs__text-size">7 рабочих дней</div>
+              </div>
+            </div>
+            <div class="tabs__img">
+              <img loading="lazy" src="./img/tabs-1.png" class="image" width="581" height="388" alt="Картинка">
+            </div>
+          </div>
+          <div class="tabs__panel">
+            <div class="tabs__col tabs__col2">
+              <ul class="list-reset tabs__list">
+                <li class="tabs__item">Обязательно используем армированный ОМЕГА-профиль, который образует ребра
+                  жесткости и снижает коэффициент линейного расширения корпуса</li>
+              </ul>
+              <div class="tabs__descr">
+                <div class="tabs__text">Срок изготовления:</div>
+                <div class="text-color tabs__text-size">7 рабочих дней</div>
+              </div>
+            </div>
+            <div class="tabs__img">
+              <img loading="lazy" src="./img/tabs-2.png" class="image" width="309" height="284" alt="Картинка">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="features">
+  <div class="container">
+    <div class="container-line">
+      <div class="features__wrapper">
+        <div class="col-width col-line">
+          <h2 class="features__title">Учтем все особенности вашего проекта</h2>
+        </div>
+        <ul class="list-reset features__list">
+          <li class="features__item">
+            <div class="features__text">до <span class="features__text--big">9</span> баллов</div>
+            <div class="features__descr">под проезжую часть <br> или для сейсмоопасных регионов</div>
+          </li>
+          <li class="features__item">
+            <div class="features__text">от <span class="features__text--big">60</span> °С</div>
+            <div class="features__descr">для северных регионов и минусовых температур</div>
+          </li>
+          <li class="features__item">
+            <div class="features__text"><span class="features__text--big">2</span> и более корпусов</div>
+            <div class="features__descr">для залповых сбросов и большой производительности</div>
+          </li>
+          <li class="features__item">
+            <div class="features__text">от <span class="features__text--big">9</span> метров</div>
+            <div class="features__descr">очень больших размеров</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="specifications">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width specifications__col col-line">
+          <h2 class="section-title">Характристики</h2>
+        </div>
+        <div class="section-inner">
+          <div class="section-block">
+            <h3 class="specifications__title">Широкий выбор <span class="text-color">характеристик</span> для ваших задач
+            </h3>
+            <div class="specifications__text">Изготовим моноблочную, двухсекционную (с сухой камерой) или многокорпусную
+              канализационную насосную станцию</div>
+          </div>
+          <ul class="list-reset specifications__list">
+            <li class="specifications__item">
+              <div class="specifications__item-text">до <span class="text-color specifications__text--big">150</span> тыс.
+                м³/ч</div>
+              <div class="specifications__descr">Производительность</div>
+            </li>
+            <li class="specifications__item">
+              <div class="specifications__item-text">до <span class="text-color specifications__text--big">4,2</span> м
+              </div>
+              <div class="specifications__descr">Диаметр корпуса</div>
+            </li>
+            <li class="specifications__item">
+              <div class="specifications__item-text">до <span class="text-color specifications__text--big">100</span>
+                м/вод.ст.</div>
+              <div class="specifications__descr">Напор</div>
+            </li>
+            <li class="specifications__item">
+              <div class="specifications__item-text">до <span class="text-color specifications__text--big">15</span> м
+              </div>
+              <div class="specifications__descr">Высота</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="info">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width info__col col-line">
+          <h2 class="info__title">Получите предварительный расчет стоимости КНС за 4 минуты</h2>
+          <p class="info__text">Боитесь ошибиться в расчётах? Пройдите короткий опрос и наш менеджер перезвонит вам для бесплатной консультации</p>
+          <a href="#" class="info__link">Рассчитать стоимость</a>
+        </div>
+        <div class="info__img">
+          <img loading="lazy" src="./img/info-pic.png" class="image" width="550" height="532" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="configuration">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width col-line">
+          <h2 class="section-title">Комплектация</h2>
+        </div>
+        <div class="section-block">
+          <h3 class="configuration__title">Держим фокус на <span class="text-color">функциональности</span> и удобстве
+          </h3>
+        </div>
+      </div>
+      <ul class="list-reset configuration__list">
+        <li class="configuration__item">
+          <svg class="configuration__pic configuration__pic--cart">
+            <use xlink:href="img/sprite.svg#conf-1"></use>
+          </svg>
+          <p class="configuration__text">Сороулавливающая корзина для защиты насоса от крупного мусора</p>
+        </li>
+        <li class="configuration__item">
+          <svg class="configuration__pic">
+            <use xlink:href="img/sprite.svg#conf-2"></use>
+          </svg>
+          <p class="configuration__text">Лестница в двух исполнениях — полимерная или из нержавеющей стали</p>
+        </li>
+        <li class="configuration__item">
+          <svg class="configuration__pic">
+            <use xlink:href="img/sprite.svg#conf-3"></use>
+          </svg>
+          <p class="configuration__text">Грузоподъёмное устройство для удобного подъёма оборудования</p>
+        </li>
+        <li class="configuration__item">
+          <svg class="configuration__pic">
+            <use xlink:href="img/sprite.svg#conf-4"></use>
+          </svg>
+          <p class="configuration__text">Откидная крышка с запорным устройством</p>
+        </li>
+        <li class="configuration__item">
+          <svg class="configuration__pic">
+            <use xlink:href="img/sprite.svg#conf-5"></use>
+          </svg>
+          <p class="configuration__text">Крепёжные пластины с анкерными болтами для фиксации корпуса</p>
+        </li>
+        <li class="configuration__item">
+          <svg class="configuration__pic">
+            <use xlink:href="img/sprite.svg#conf-6"></use>
+          </svg>
+          <p class="configuration__text">Выступ-юбка для монтажа в обводненный грунт</p>
+        </li>
+        <li class="configuration__item">
+          <svg class="configuration__pic">
+            <use xlink:href="img/sprite.svg#conf-7"></use>
+          </svg>
+          <p class="configuration__text">Индивидуальный комплект направляющих для насосов</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="finance">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width col-line">
+          <h2 class="section-title">Стоимость</h2>
+        </div>
+        <div class="section-inner">
+          <div class="section-block">
+            <h3 class="finance__title">Адаптируемся под ваши <span class="text-color">финансовые возможности</span></h3>
+            <div class="finance__text">Предлагаем выбор исполнения и подбираем насосное оборудование любого бренда от известных европейских марок до качественных аналогов по оптимальной цене</div>
+          </div>
+          <ul class="list-reset finance__list">
+            <li class="finance__item">
+              <img loading="lazy" src="../img/finance-1.jpg" class="finance__image" width="367" height="207" alt="">
+              <p class="finance__descr"><span class="text-color">Прямые контракты</span> с производителями насосного оборудования</p>
+            </li>
+            <li class="finance__item">
+              <img loading="lazy" src="../img/finance-2.jpg" class="finance__image" width="367" height="207" alt="">
+              <p class="finance__descr">Команда технологов и инженеров <span class="text-color">с реальным опытом</span></p>
+            </li>
+            <li class="finance__item">
+              <img loading="lazy" src="../img/finance-3.jpg" class="finance__image" width="367" height="207" alt="">
+              <p class="finance__descr"><span class="text-color">Собственные площадки</span> с тестовыми установками/p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="info">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width info__col col-line">
+          <h2 class="info__title">Бесплатно скачайте каталог наших решений</h2>
+          <p class="info__text">В каталоге более подробно представлен перечень нашего оборудования, а так же информация о компании</p>
+          <a href="#" class="info__link">Скачать</a>
+        </div>
+        <div class="info__img">
+          <img loading="lazy" src="./img/infoc-pic.png" class="image" width="724" height="539" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="exploitation">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width col-line">
+          <h2 class="section-title">Эксплуатация</h2>
+        </div>
+        <div class="section-inner">
+          <div class="section-block">
+            <h3 class="exploitation__title">Дадим подробный технический регламент — <span class="text-color">полный алгоритм действий</span> из которого вы узнаете:</h3>
+          </div>
+          <ul class="list-reset exploitation__list">
+            <li class="exploitation__item">
+              Как действовать при аварии насоса?
+            </li>
+            <li class="exploitation__item">
+              Что входит в техническое обслуживание станции?
+            </li>
+            <li class="exploitation__item">
+              Когда и как проводить внешний осмотр станции?
+            </li>
+          </ul>
+        </div>
+        <div class="exploitation__img">
+          <img loading="lazy" src="./img/exploitation-pic.png" class="image" width="492" height="400" alt="Картинка">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="benefit">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width col-line">
+          <h2 class="section-title">Преимущества</h2>
+        </div>
+        <div class="section-inner">
+          <div class="section-block">
+            <h3 class="benefit__title"><span class="text-color">Реализуйте</span> проект без головной боли</h3>
+          </div>
+        </div>
+      </div>
+      <div class="benefit__wrapper-slider">
+        <div class="swiper benefit-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="benefit-slider__block">
+                <img loading="lazy" src="../img/benefit-1.jpg" class="benefit-slider__image" alt="">
+                <p class="benefit-slider__descr">Чётко фиксируем сроки и гарантию в договоре</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="benefit-slider__block">
+                <img loading="lazy" src="../img/benefit-2.jpg" class="benefit-slider__image" alt="">
+                <p class="benefit-slider__descr">Берёмся за проект любой сложности</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="benefit-slider__block">
+                <img loading="lazy" src="../img/benefit-3.jpg" class="benefit-slider__image" alt="">
+                <p class="benefit-slider__descr">У нас 2-х этапный контроль качества на производстве</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="benefit-slider__block">
+                <img loading="lazy" src="../img/benefit-4.jpg" class="benefit-slider__image" alt="">
+                <p class="benefit-slider__descr">Ответственный менеджер будет курировать ваш проект до самого запуска</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="benefit-slider__block">
+                <img loading="lazy" src="../img/benefit-5.jpg" class="benefit-slider__image" alt="">
+                <p class="benefit-slider__descr">Отправляем смс-сообщения о ходе производства и следим за каждым запуском</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="benefit-slider__block">
+                <img loading="lazy" src="../img/benefit-6.jpg" class="benefit-slider__image" alt="">
+                <p class="benefit-slider__descr">Вам не надо беспокоиться о доставке. Привезём оборудование в любую точку РФ за 72 часа дешевле любой транспортной компании</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination benefit-slider__pag"></div>
+        </div>
+        <div class="benefit-slider__btns">
+          <div class="swiper-button-prev benefit-slider__btn benefit-slider__prev">
+            <svg>
+              <use xlink:href="img/sprite.svg#arr-l"></use>
+            </svg>
+          </div>
+          <div class="swiper-button-next benefit-slider__btn benefit-slider__next">
+            <svg>
+              <use xlink:href="img/sprite.svg#arr-r"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="about">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width">
+          <h2 class="section-title section-title--color">О нас в цифрах</h2>
+        </div>
+        <ul class="list-reset about__list">
+          <li class="about__item">
+            <div class="about__text"><span class="about__text-big">>10</span> лет</div>
+            <div class="about__descr">Занимаемся производством</div>
+          </li>
+          <li class="about__item">
+            <div class="about__text"><span class="about__text-big">13</span> лет</div>
+            <div class="about__descr">Средний стаж сотрудников</div>
+          </li>
+          <li class="about__item">
+            <div class="about__text"><span class="about__text-big">>120</span></div>
+            <div class="about__descr">Выполненных проектов</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="participants">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width col-line">
+          <h2 class="section-title">Являемся участниками</h2>
+        </div>
+        <ul class="list-reset participants__list">
+          <li class="participants__item">
+            <div class="participants__img">
+              <img loading="lazy" src="./img/participants-1.jpg" class="image" width="373" height="132" alt="">
+            </div>
+            <div class="participants__text">Национальный проект «Экология»</div>
+          </li>
+          <li class="participants__item">
+            <div class="participants__img">
+              <img loading="lazy" src="./img/participants-2.jpg" class="image" width="373" height="132" alt="">
+            </div>
+            <div class="participants__text">Федеральный проект «Чистая вода»</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="customers">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width col-line">
+          <h2 class="section-title">Довольные заказчики</h2>
+        </div>
+        <!-- <ul class="list-reset customers__list">
+          <li class="customers__item">
+            <div class="customers__img">
+              <img loading="lazy" src="./img/customers-1.jpg" class="image" width="336" height="351" alt="">
+            </div>
+            <div class="customers__text">Благодарственное письмо ИП Орлов (д/о лагерь «Искра»)</div>
+          </li>
+          <li class="customers__item">
+            <div class="customers__img">
+              <img loading="lazy" src="./img/customers-2.jpg" class="image" width="336" height="351" alt="">
+            </div>
+            <div class="customers__text">Рекомендательное письмо «ВТ Эксперт»</div>
+          </li>
+          <li class="customers__item">
+            <div class="customers__img">
+              <img loading="lazy" src="./img/customers-3.jpg" class="image" width="336" height="351" alt="">
+            </div>
+            <div class="customers__text">Письмо в Альта Групп отзыв об опытной эксплуатации датчиков Alta Alarm</div>
+          </li>
+        </ul> -->
+        <div class="swiper customers-slider">
+          <div class="swiper-wrapper customers__list">
+            <div class="swiper-slide customers__item">
+              <li class="customers__item">
+                <div class="customers__img">
+                  <img loading="lazy" src="./img/customers-1.jpg" class="image" width="336" height="351" alt="">
+                </div>
+                <div class="customers__text">Благодарственное письмо ИП Орлов (д/о лагерь «Искра»)</div>
+              </li>
+            </div>
+            <div class="swiper-slide customers__item">
+              <li class="customers__item">
+                <div class="customers__img">
+                  <img loading="lazy" src="./img/customers-2.jpg" class="image" width="336" height="351" alt="">
+                </div>
+                <div class="customers__text">Рекомендательное письмо «ВТ Эксперт»</div>
+              </li>
+            </div>
+            <div class="swiper-slide customers__item">
+              <li class="customers__item">
+                <div class="customers__img">
+                  <img loading="lazy" src="./img/customers-3.jpg" class="image" width="336" height="351" alt="">
+                </div>
+                <div class="customers__text">Письмо в Альта Групп отзыв об опытной эксплуатации датчиков Alta Alarm
+                </div>
+              </li>
+            </div>
+          </div>
+        </div>
+        <div class="customers-slider__btns">
+          <div class="swiper-button-prev customers-slider__btn customers-slider__prev">
+            <svg>
+              <use xlink:href="img/sprite.svg#arr-l"></use>
+            </svg>
+          </div>
+          <div class="swiper-button-next customers-slider__btn customers-slider__next">
+            <svg>
+              <use xlink:href="img/sprite.svg#arr-r"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+      <section class="trust">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width col-line">
+          <h2 class="section-title">Нам доверяют</h2>
+        </div>
+        <div class="section-inner">
+          <div class="section-block">
+            <h3 class="trust__title">К нам обращаются крупнейшие госкорпорации и компании, <span class="text-color">которые умеют считать деньги</span> и выбирают лучшее</h3>
+            <div class="trust__text">Мы даем им возможность полностью делегировать реализацию проекта и быть уверенным в результате</div>
+          </div>
+        </div>
+      </div>
+      <div class="ticker">
+        <div class="ticker__wrapper">
+          <div class="ticker__item">
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-1.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-2.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-3.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-4.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-5.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-6.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-7.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-8.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-9.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-10.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-11.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-12.png" class="image" width="" height="" alt="">
+            </div>
+          </div>
+          <div class="ticker__item">
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-1.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-2.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-3.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-4.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-5.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-6.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-7.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-8.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-9.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-10.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-11.png" class="image" width="" height="" alt="">
+            </div>
+            <div class="ticker__img">
+              <img loading="lazy" src="../img/trust-12.png" class="image" width="" height="" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+      <section class="certificate">
+  <div class="container">
+    <div class="container-line">
+      <div class="section-wrapper">
+        <div class="col-width col-line">
+          <h2 class="section-title">Сертификаты</h2>
+        </div>
+        <div class="section-inner">
+          <div class="section-block">
+            <h3 class="certificate__title">Мы тщательно следим за всеми <span class="text-color">сертификатами</span> и
+              <span class="text-color">лицензиями</span></h3>
+          </div>
+        </div>
+      </div>
+      <ul class="list-reset certificate__list">
+        <li class="certificate__item">
+          <div class="certificate__name">Сертификат соответствия 01.03.2024 г.</div>
+          <a href="" download="text.txt" class="certificate__link">Скачать [PDF]</a>
+          <div class="certificate__img">
+            <img loading="lazy" src="../img/cert-1.jpg" class="image" width="441" height="" alt="">
+          </div>
+        </li>
+        <li class="certificate__item">
+          <div class="certificate__name">Сертификат соответствия 29.09.2022 г.</div>
+          <a href="" download="text.txt" class="certificate__link">Скачать [PDF]</a>
+          <div class="certificate__img">
+            <img loading="lazy" src="../img/cert-2.jpg" class="image" width="441" height="" alt="">
+          </div>
+        </li>
+        <li class="certificate__item">
+          <div class="certificate__name">Сертификат соответствия 31.08.2022 г. </div>
+          <a href="" download="text.txt" class="certificate__link">Скачать [PDF]</a>
+          <div class="certificate__img">
+            <img loading="lazy" src="../img/cert-3.jpg" class="image" width="441" height="" alt="">
+          </div>
+        </li>
+        <li class="certificate__item">
+          <div class="certificate__name">Сертификат соответствия 30.06.2023 г. </div>
+          <a href="" download="text.txt" class="certificate__link">Скачать [PDF]</a>
+          <div class="certificate__img">
+            <img loading="lazy" src="../img/cert-4.jpg" class="image" width="441" height="" alt="">
+          </div>
+        </li>
+        <li class="certificate__item">
+          <div class="certificate__name">Сертификат соответствия 18.11.2021 г.</div>
+          <a href="" download="text.txt" class="certificate__link">Скачать [PDF]</a>
+          <div class="certificate__img">
+            <img loading="lazy" src="../img/cert-5.jpg" class="image" width="441" height="" alt="">
+          </div>
+        </li>
+        <li class="certificate__item">
+          <div class="certificate__name">Сертификат соответствия 31.08.2022 г. </div>
+          <a href="" download="text.txt" class="certificate__link">Скачать [PDF]</a>
+          <div class="certificate__img">
+            <img loading="lazy" src="../img/cert-6.jpg" class="image" width="441" height="" alt="">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section-form">
+  <div class="container-max section-form__container-max">
+    <div class="col-width section-form__photo">
+      <img src="../img/photo.jpg" alt="" class="section-form__img">
+    </div>
+    <div class="container">
+      <div class="container-line">
+        <div class="section-wrapper">
+          <div class="col-width col-line">
+            <div class="section-form__descr">
+              <span class="section-form__name">Сергей Бахвалов</span>
+              <span class="section-form__position">Руководитель проектов</span>
+            </div>
+          </div>
+          <div class="section-form__inner">
+            <span class="section-form__text">Не можете определиться?</span>
+            <h2 class="section-form__title">Бесплатно проконсультируем по телефону и подберем оборудование</h2>
+            <form action="#" class="form">
+              <label class="form__label">
+                <span class="form__text">Ваше имя</span>
+                <input type="text" name="Имя" class="input-reset form__input" placeholder="Александр">
+              </label>
+              <label class="form__label">
+                <span class="form__text">Телефон</span>
+                <input type="tel" name="Телефон" class="input-reset form__input input-tel" placeholder="+7 000-000-00-00">
+              </label>
+              <button class="btn-reset form__btn">Позвоните мне</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <div class="col-width footer-top">
+        <div class="footer__logo ">
+          <img src="./img/logo.svg" class="footer__img" width="308" height="81" alt="Логотип ГЕОН">
+          <div class="footer__text">Проектирование и строительство
+            очистных сооружений сточных вод
+            по всей России и СНГ</div>
+        </div>
+      </div>
+      <div class="footer__inner footer__lists">
+        <ul class="list-reset footer__list">
+          <li class="footer__item">
+            <a class="footer__link">Услуги</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Аудит</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Проектирование</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Строительство</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Пусконаладка</a>
+          </li>
+        </ul>
+        <ul class="list-reset footer__list">
+          <li class="footer__item">
+            <a class="footer__link">О компании</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Новости</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Проекты</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Работа в ГЕОН</a>
+          </li>
+        </ul>
+        <ul class="list-reset footer__list">
+          <li class="footer__item">
+            <a class="footer__link">Каталог</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Станции биологической очистки</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Ливневые очистные сооружения</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Канализационные насосные станции</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Ёмкостное оборудование</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__wrapper">
+      <div class="col-width social">
+        <div class="social__name">Написать нам</div>
+        <ul class="list-reset social__list">
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--vb">
+            <svg class="social__pic">
+              <use xlink:href="img/sprite.svg#vb"></use>
+            </svg>
+          </a></li>
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--wa">
+            <svg class="social__pic">
+              <use xlink:href="img/sprite.svg#wa"></use>
+            </svg>
+          </a></li>
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--tg">
+            <svg class="social__pic">
+              <use xlink:href="img/sprite.svg#tg"></use>
+            </svg>
+          </a></li>
+        </ul>
+      </div>
+      <div class="footer__inner footer-cont">
+        <div class="footer__contact">
+          <div class="footer__contact-name">E-mail</div>
+          <a href="mailto:info@geongroup.ru" class="footer__contact-link">info@geongroup.ru</a>
+        </div>
+        <div class="footer__contact">
+          <div class="footer__contact-name">Телефон</div>
+          <a href="tel:88005002174" class="footer__contact-link">8 (800) 500 21 74</a>
+        </div>
+        <div class="footer__contact">
+          <div class="footer__contact-name">Работаем</div>
+          <a class="footer__contact-link">ПН-ПТ с 8:00 до 17:00</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bootom">
+      <div class="footer__bottom-text">© 2024 Группа компаний ГЕОН. Все права сайта защищены</div>
+      <a href="#" class="footer__bottom-text">Политика конфиденциальности</a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
