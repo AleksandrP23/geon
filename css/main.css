@@ -526,12 +526,16 @@ a {
 }
 .hero__index::before {
   z-index: 1;
-  height: calc(100% + 275px);
+  height: calc(100% + 290px);
 }
 .hero__index::after {
   z-index: 1;
   border-left: 1px solid transparent;
-  height: calc(100% + 275px);
+  height: calc(100% + 290px);
+}
+.hero__index .section-wrapper {
+  position: relative;
+  z-index: 2;
 }
 .hero__wrapper {
   position: relative;
