@@ -298,7 +298,7 @@ const targetElement = document.querySelector('.header');
 
 // Функция для добавления класса при прокрутке
 function handleScroll() {
-  if (window.scrollY > 100) {
+  if (window.scrollY > 50) {
     // Измените 100 на нужное вам значение
     targetElement.classList.add('header--color');
   } else {
